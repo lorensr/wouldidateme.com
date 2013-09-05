@@ -4,11 +4,18 @@ title: Consultation
 header: header used?
 group: navigation
 ---
+
 {% include JB/setup %}
 
 We will create or revise your dating profile based on your answers to fifteen questions for a flat $__ fee.
 
 Fill out this form! [link to an example consultation]
+
+
+<label>Email: </label>
+<input id="email" type="text"></input>
+<button id="choose">Choose</button>
+
 
 <br/>
 <br/>
@@ -19,5 +26,4 @@ Fill out this form! [link to an example consultation]
 [paypal link to fund submission]. 
 
 Once payment has been received, we will work on your case. Turnaround is usually two to four days. 
-
 
