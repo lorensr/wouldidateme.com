@@ -4,8 +4,9 @@ $ ->
   $('#choose').click ->
     Chute.MediaChooser.choose (urls) ->
       console.log urls
-      $.post 'http://wouldidateme.herokuapp.com/photos',
+      $.get 'http://wouldidateme.herokuapp.com/photos',
         urls: urls
         email: $('#email').val()
+      , dataType: 'jsonp'
 
 console.log 'test'

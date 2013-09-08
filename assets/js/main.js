@@ -6,9 +6,11 @@
     return $('#choose').click(function() {
       return Chute.MediaChooser.choose(function(urls) {
         console.log(urls);
-        return $.post('http://wouldidateme.herokuapp.com/photos', {
+        return $.get('http://wouldidateme.herokuapp.com/photos', {
           urls: urls,
           email: $('#email').val()
+        }, {
+          dataType: 'jsonp'
         });
       });
     });
