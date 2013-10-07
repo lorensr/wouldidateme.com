@@ -1,5 +1,5 @@
 body {
-  background-color: #e6e6e6;
+  background-color: #cecece;
 }
 #navbar {
   background-color: #f0f0f0;
@@ -14,7 +14,7 @@ body {
   color: #8b2a80;
 }
 .page-header {
-  background-color: #f8f8f8;
+  background-color: #fff;
 }
 .page-header > h1 {
   color: #61315b;
