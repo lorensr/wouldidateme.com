@@ -1,7 +1,6 @@
 ---
-layout: page
-title: Hello World!
-tagline: Supporting tagline
+layout: landing
+title: Would I Date Me?
 ---
 {% include JB/setup %}
 
